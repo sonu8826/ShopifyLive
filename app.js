@@ -59,7 +59,7 @@ app.use("/check/userLogin",checkUserLoginRouter);
 app.use("/logout/user",logoutUser);
 
 
-app.listen(5000, function() {
+app.listen(5000, '0.0.0.0', function() {
   console.log("Server is running on port 5000");
 })
 // catch 404 and forward to error handler
